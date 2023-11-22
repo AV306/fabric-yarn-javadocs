@@ -1,6 +1,6 @@
 { pkgs }: {
-    deps = [
-      pkgs.unzip
-      pkgs.cowsay
-    ];
+  deps = [
+    pkgs.unzip
+    pkgs.wget
+  ];
 }
